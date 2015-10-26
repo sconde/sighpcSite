@@ -21,72 +21,188 @@
 <body>
 
 <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand em-text" href="#">SIGHPC-RCE</a>
-        </div>
-        <div class="tabbable tabs-left"> <!-- Only required for left/right tabs -->
-            <ul class="nav nav-tabs">
-                <li class="active"><a href="#tab1" data-toggle="tab">About SIGHPC</a></li>
-                <li><a href="#tab2" data-toggle="tab">Become A Member</a></li>
-                <li><a href="#tab3" data-toggle="tab">Events</a></li>
-                <li><a href="#tab4" data-toggle="tab">Posts</a></li>
-                <li><a href="#tab2" data-toggle="tab">Contacts</a></li>
-            </ul>
-            <div class="tab-content">
-                <div class="tab-pane active" id="tab1">
-                    <div class="jumbotron">
-                        <div class="hero-unit">
-                            <div class="page-header">
-                                <h1>Example page header <small>Subtext for header</small></h1>
-                            </div>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged </p>
-                            <p><a class="btn btn-primary btn-large">Learn more</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane" id="tab2">
-                    <p>
-                    Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
-
-                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.
-
-                    Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-                    </p>
-                </div>
-                <div class="tab-pane" id="tab3">
-                    <p>
-                    Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
-
-                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.
-
-                    Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-                    </p>
-                </div>
-                <div class="tab-pane" id="tab4">
-                    <p>
-                    Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
-
-                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.
-
-                    Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-                    </p>
-                </div>
-            </div>
-        </div>
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand em-text" href="#">SIGHPC-RCE</a>
+    </div>
+    <div class="tabbable tabs-left"> <!-- Only required for left/right tabs -->
+        <ul class="nav nav-tabs">
+            <li class="active"><a href="#tab_home" data-toggle="tab">About SIGHPC</a></li>
+            <li><a href="#tab_member" data-toggle="tab">Become A Member</a></li>
+            <li><a href="#tab_events" data-toggle="tab">Events</a></li>
+            <li><a href="#tab_collaboration" data-toggle="tab">Collaborations</a></li>
+            <li><a href="#tab_opportunities" data-toggle="tab">Opportunities</a></li>
+            <li><a href="#tab_mission_vision" data-toggle="tab">Mission and Vision</a></li>
+            <li><a href="#tab_posts" data-toggle="tab">Posts</a></li>
+            <a class="navbar-brand log_nav" href="#">
+                <img src="img/sighpc-rce.jpg" alt="">
+            </a>
+        </ul>
     </div>
 </nav>
 
 
+<div class="container">
+
+    <div class="tab-content">
+
+        <div class="tab-pane active" id="tab_home">
+            <div class="jumbotron">
+                <div class="hero-unit">
+                    <div class="page-header">
+                        <h1>SIGHPC<small>Resource Constrained Environments</small></h1>
+                    </div>
+                    <p>
+                    We seek to develop pragmatic paradigms that will create synergistic collaboration among 
+                    members (academia, research scientist and HPC administrators) of the chapter, vendors and 
+                    leaders of HPC outreach initiatives in Africa like STEM-Trek and Center for High Performance 
+                    Computing South Africa (CHPC) to allow the cross-pollination of ideas and innovation from a 
+                    multinational community.
+                    </p>
+                    <p><a class="btn btn-primary btn-large">Learn more</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-pane" id="tab_member">
+            <div class="page-header">
+                <h1>Become A Member<small> Subtext for header</small></h1>
+            </div>
+            <p>
+            Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
+
+            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.
+
+            Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+            </p>
+        </div>
+
+        <div class="tab-pane" id="tab_posts">
+            <div class="page-header">
+                <h1>Posts<small> Subtext for header</small></h1>
+            </div>
+            <p>
+            Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
+
+            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.
+
+            Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+            </p>
+        </div>
+
+        <div class="tab-pane" id="tab_events">
+            <div class="page-header">
+                <h1>Events<small> Subtext for header</small></h1>
+            </div>
+
+            <div class="accordion" id="accordion2">
+
+<!--
+                <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                            <h3>
+                                BOF @ SC15: Collaborative Paradigms for Developing HPC in Constrained Environments
+                            </h3>
+                        </a>
+                    </div>
+                    <div id="collapseOne" class="accordion-body collapse in">
+                        <div class="accordion-inner">
+                            <p>
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc
+                            <span class="label label-info"><a href="http://sc15.supercomputing.org/schedule/event_detail?evid=bof171" target="_blank">SC15-site</a></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            -->
+
+                <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                            <h3>
+                            BOF @ SC15: Collaborative Paradigms for Developing HPC in Constrained Environments
+                        </h3>
+                        </a>
+                    </div>
+                    <div id="collapseTwo" class="accordion-body collapse">
+                        <div class="accordion-inner">
+                            <div class="media">
+                                <a class="pull-left" href="#">
+                                    <img class="media-object" data-src="holder.js/64x64" alt="64x64" style="width: 120px; height: 80px;" src="img/sc15-logo.png">
+                                </a>
+                                <div class="media-body">
+                                    <!--<h4 class="media-heading">BOF @ SC15: Collaborative Paradigms for Developing HPC in Constrained Environments</h4>-->
+                                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+                                    <span class="label label-info"><a href="http://sc15.supercomputing.org/schedule/event_detail?evid=bof171" target="_blank">SC15-site</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="tab-pane" id="tab_collaboration">
+            <div class="page-header">
+                <h1>Collaboration<small> Subtext for header</small></h1>
+            </div>
+            <p>
+            Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
+
+            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.
+
+            Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+            </p>
+        </div>
+
+        <div class="tab-pane" id="tab_opportunities">
+            <div class="page-header">
+                <h1>Opportunities<small> Subtext for header</small></h1>
+            </div>
+            <p>
+            Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
+
+            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.
+
+            Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+            </p>
+        </div>
+
+        <div class="tab-pane" id="tab_mission_vision">
+            <div class="page-header">
+                <h1>Mission and Vision<small> Subtext for header</small></h1>
+            </div>
+            <p>
+            Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
+
+            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.
+
+            Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+            </p>
+        </div>
+
+    </div>
+
+</div>
+
+<!--
 <section>
 
 </section>
+-->
+<footer class="footer">
+    <div class="container">
+        <p class="text-muted">Copyright (c) SIGHPC-RCE 2015</p>
+    </div>
+</footer>
 
 
 <!-- Bootstrap core JavaScript
