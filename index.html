@@ -21,28 +21,31 @@
 <body>
 
 <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand em-text" href="#">SIGHPC-RCE</a>
-    </div>
-    <div class="tabbable tabs-left"> <!-- Only required for left/right tabs -->
-        <ul class="nav nav-tabs">
-            <li class="active"><a href="#tab_home" data-toggle="tab">About SIGHPC</a></li>
-            <li><a href="#tab_member" data-toggle="tab">Become A Member</a></li>
-            <li><a href="#tab_events" data-toggle="tab">Events</a></li>
-            <li><a href="#tab_collaboration" data-toggle="tab">Collaborations</a></li>
-            <li><a href="#tab_opportunities" data-toggle="tab">Opportunities</a></li>
-            <li><a href="#tab_mission_vision" data-toggle="tab">Mission and Vision</a></li>
-            <li><a href="#tab_posts" data-toggle="tab">Posts</a></li>
-            <a class="navbar-brand log_nav" href="#">
-                <img src="img/sighpc-rce.jpg" alt="">
-            </a>
-        </ul>
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="tabbable tabs-left"> <!-- Only required for left/right tabs -->
+            <ul class="nav nav-tabs">
+                <li class="active"><a class="em-text" href="#tab_home" data-toggle="tab">SIGHPC-RCE</a></li>
+                <li><a href="#tab_mission_vision" data-toggle="tab">Mission and Vision</a></li>
+                <li><a href="#tab_member" data-toggle="tab">Membership</a></li>
+                <li><a href="#tab_collaboration" data-toggle="tab">Collaborations</a></li>
+                <li><a href="#tab_opportunities" data-toggle="tab">Opportunities</a></li>
+                <li><a href="#tab_posts" data-toggle="tab">Posts</a></li>
+                <li><a href="#tab_events" data-toggle="tab">Events</a></li>
+                <ul class="nav navbar-nav navbar-right">
+                    <a class="navbar-brand log_nav" href="#">
+                        <img src="img/sighpc-rce.jpg" alt="">
+                    </a>
+                </ul>
+            </ul>
+        </div>
     </div>
 </nav>
 
@@ -58,112 +61,155 @@
                         <h1>SIGHPC<small>Resource Constrained Environments</small></h1>
                     </div>
                     <p>
-                    We seek to develop pragmatic paradigms that will create synergistic collaboration among 
-                    members (academia, research scientist and HPC administrators) of the chapter, vendors and 
-                    leaders of HPC outreach initiatives in Africa like STEM-Trek and Center for High Performance 
-                    Computing South Africa (CHPC) to allow the cross-pollination of ideas and innovation from a 
-                    multinational community.
+                    To achieve a sustainable collaboration of integrated high performance computing infrastructure 
+                    and the development of competency in computational research for innovation in resource 
+                    constrained environments.
                     </p>
                     <p><a class="btn btn-primary btn-large">Learn more</a></p>
                 </div>
             </div>
         </div>
 
-        <div class="tab-pane" id="tab_member">
+        <div class="tab-pane" id="tab_member"> <!-- Become a member -->
             <div class="page-header">
                 <h1>Become A Member<small> Subtext for header</small></h1>
             </div>
             <p>
-            Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
-
-            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.
-
-            Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+            Chapter membership is open to anyone with an interest in High Performance Computing (HPC) in Resource Constrained Environments and Under Represented Regions. Chapter members do not need to be members of ACM.
             </p>
-        </div>
 
-        <div class="tab-pane" id="tab_posts">
-            <div class="page-header">
-                <h1>Posts<small> Subtext for header</small></h1>
-            </div>
             <p>
-            Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
-
-            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.
-
-            Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+            Click here to join. Once you have joined, you will be on our email list to receive notices of activities and events.
             </p>
         </div>
 
-        <div class="tab-pane" id="tab_events">
+        <div class="tab-pane" id="tab_posts"> <!-- Posts -->
             <div class="page-header">
-                <h1>Events<small> Subtext for header</small></h1>
+                <h1>Posts
+                    <small> Subtext for header </small>
+                </h1>
             </div>
 
-            <div class="accordion" id="accordion2">
+            <div class="row">
+                <div class"col-md-4">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" data-src="holder.js/64x64" alt="64x64" style="width: 100px; height: 100px;" src="img/sc15-logo.png">
+                    </a>
+                </div>
+                <div class="col-md-8">
+                    <h3>ATTENDING SC15?</h3>
 
-<!--
-                <div class="accordion-group">
-                    <div class="accordion-heading">
-                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-                            <h3>
-                                BOF @ SC15: Collaborative Paradigms for Developing HPC in Constrained Environments
-                            </h3>
-                        </a>
-                    </div>
-                    <div id="collapseOne" class="accordion-body collapse in">
-                        <div class="accordion-inner">
-                            <p>
-                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc
-                            <span class="label label-info"><a href="http://sc15.supercomputing.org/schedule/event_detail?evid=bof171" target="_blank">SC15-site</a></span>
-                            </p>
+                    <p>
+                    Meet fellow members at the SIGHPC booth at Supercomputing 2015!
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <h3>ACM-SIGHPC-RCE approved June 15, 2015!</h3> <h5>ACM Special Interest Group on HPC in Resource-Constrained Environments</h5>
+                <p>
+                History:
+
+                Network Engineer Hensley Omorodion (University of Benin, Nigeria) laid the groundwork for an  IEEE/Association for Computing Machinery (ACM) Special Interest Group on High Performance Computing in Resource-Constrained Environments (SIGHPC-RCE) 
+                <span class="label label-info">
+                    <a href="http://www.stem-trek.org/sighpc-rce/" target="_blank">read more</a>
+                </span>
+                </p>
+
+            </div>
+
+            <div class="row">
+                <h3>#HPCTransforms Southern Africa</h3>
+                <p>
+                A few years ago, the concept of a regional, shared research and education  cyberinfrastructure (CI) in Africa existed only in the minds of visionaries like Dan Stanzione (Texas Advanced Computing Center, U.S.), Happy Sithole (South African Center for High Performance Computing) and Hensley Omorodion (University of Benin, Nigeria). They knew.. 
+                <span class="label label-info">
+                    <a href="https://www.linkedin.com/pulse/hpc-transform-african-experience-elizabeth-leake?published=u" target="_blank">read more</a>
+                </span>
+                </p>
+            </div>
+        </div>
+
+        <div class="tab-pane" id="tab_events"> <!-- Events -->
+            <div class="page-header">
+                <h1>Events
+                    <!-- <small> Subtext for header</small> -->
+                </h1>
+            </div>
+
+            <div class="row">
+                <h3>
+                    BOF @ SC15: Collaborative Paradigms for Developing HPC in Constrained Environments
+                </h3>
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="col-md-4">
+                            <a class="pull-left" href="#">
+                                <img class="media-object" data-src="holder.js/64x64" alt="64x64" style="width: 160px; height: 120px;" src="img/sc15-logo.png">
+                            </a>
                         </div>
+
+                        <ul>
+                            <li>EVENT TYPE: Birds of a Feather</li>
+                            <li>EVENT TAG(S): Outreach </li>
+                            <li>TIME: 12:15PM - 1:15PM Central</li>
+                            <li>SESSION LEADER(S):Hensley Omorodion, Elizabeth Leake, Linda Akli</li>
+                            <li>ROOM:17AB</li>
+                        </ul>
                     </div>
                 </div>
-            -->
 
-                <div class="accordion-group">
-                    <div class="accordion-heading">
-                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-                            <h3>
-                            BOF @ SC15: Collaborative Paradigms for Developing HPC in Constrained Environments
-                        </h3>
-                        </a>
-                    </div>
-                    <div id="collapseTwo" class="accordion-body collapse">
-                        <div class="accordion-inner">
-                            <div class="media">
-                                <a class="pull-left" href="#">
-                                    <img class="media-object" data-src="holder.js/64x64" alt="64x64" style="width: 120px; height: 80px;" src="img/sc15-logo.png">
-                                </a>
-                                <div class="media-body">
-                                    <!--<h4 class="media-heading">BOF @ SC15: Collaborative Paradigms for Developing HPC in Constrained Environments</h4>-->
-                                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
-                                    <span class="label label-info"><a href="http://sc15.supercomputing.org/schedule/event_detail?evid=bof171" target="_blank">SC15-site</a></span>
-                                </div>
-                            </div>
+                <p>
+                Computational science and engineering provides the potential for addressing many problems facing countries on the African continent. HPC in Africa is in its embryonic stage, and growth requires significant increases in resources. Challenges include increased investment in infrastructure, accompanied by increased scope and innovation in the basic STEM disciplines. The newly chartered Special Interest Group on High Performance Computing for Resource Constrained Environments (SIGHPC-RCE) provides a forum for industry, academics, and government entities for building partnerships, collaborations, and outreach initiatives towards addressing these challenges. We invite everyone interested in learning about and solving these problems to attend this session. 
+                <span class="label label-info"><a href="http://sc15.supercomputing.org/schedule/event_detail?evid=bof171" target="_blank">SC15-site</a></span>
+                </p>
+
+            </div>
+
+            <div class="row">
+                <h3>
+                    BOF @ SC15: SIGHPC ANNUAL MEETING
+                </h3>
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="col-md-4">
+                            <a class="pull-left" href="#">
+                                <img class="media-object" data-src="holder.js/64x64" alt="64x64" style="width: 160px; height: 120px;" src="img/sc15-logo.png">
+                            </a>
                         </div>
+
+                        <ul>
+                            <li>EVENT TYPE: TYPE: Birds of a Feather, Other Event or Reception </li>
+                            <li>EVENT TAG(S): Outreach </li>
+                            <li>TIME: 12:15PM - 1:15PM Central</li>
+                            <li>ROOM:16AB</li>
+                        </ul>
                     </div>
                 </div>
 
+                <p>
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+                <span class="label label-info"><a href="http://sc15.supercomputing.org/schedule/event_detail?evid=pec153" target="_blank">SC15-site</a></span>
+                </p>
+
             </div>
 
         </div>
 
-        <div class="tab-pane" id="tab_collaboration">
+        <div class="tab-pane" id="tab_collaboration"> <!-- Collaboration -->
             <div class="page-header">
-                <h1>Collaboration<small> Subtext for header</small></h1>
+                <h1>Collaboration
+                    <!--<small> Subtext for header</small>-->
+                </h1>
             </div>
+            <h3>Global, grassroots and going places!</h3>
             <p>
-            Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
+            Travel and professional development for science, technology, engineering, and mathematics scholars.
 
-            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.
-
-            Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+            http://www.stem-trek.org/
             </p>
         </div>
 
-        <div class="tab-pane" id="tab_opportunities">
+        <div class="tab-pane" id="tab_opportunities"> <!-- Opportunities -->
             <div class="page-header">
                 <h1>Opportunities<small> Subtext for header</small></h1>
             </div>
@@ -176,17 +222,35 @@
             </p>
         </div>
 
-        <div class="tab-pane" id="tab_mission_vision">
+        <div class="tab-pane" id="tab_mission_vision"> <!-- Missions and Vision -->
             <div class="page-header">
-                <h1>Mission and Vision<small> Subtext for header</small></h1>
+                <h1>Vision<small> Subtext for header</small></h1>
             </div>
             <p>
-            Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
-
-            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.
-
-            Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+            The scope of SIGHPC-RCE’s specialty is high performance computing (HPC) in the broadest
+            sense of the term - spanning the full range of high-performance technologies, systems, and 
+            applications. It’s demographic focus, embraces not only people who study, develop, teach, or 
+            support HPC, but also those engaged in applying HPC across a broad spectrum of scientific, 
+            engineering, and business domains in Africa.
             </p>
+            <div class="page-header">
+                <h1>Mission<small> Subtext for header</small></h1>
+            </div>
+            SIGHPC-RCE's mission is to promote the advancement of the field of High Performance Computing by
+
+            <ul class="mission"> 
+                <li> Promoting the mentoring and education of HPC professionals; and serving as a source of  information about the field to other parts of SIGHPC and the larger scientific community in Resource Constrained Environments. </li>
+
+                <li> Organizing sessions at conferences of the ACM; </li>
+
+                <li> Organizing outreach initiatives for the exchange of information and to foster collaboration in education and research. </li>
+
+                <li> Serving as a source of technical information for it’s members, the Council and other units of the ACM. </li>
+
+                <li> Serving as an external technical representative of it’s members and the ACM when authorized by the Council or the Executive Committee of the ACM; </li>
+
+                <li> Working with other units of the ACM on technical activities such as lectureships or professional development seminars. </li>
+            </ul>
         </div>
 
     </div>
@@ -197,12 +261,12 @@
 <section>
 
 </section>
--->
 <footer class="footer">
     <div class="container">
         <p class="text-muted">Copyright (c) SIGHPC-RCE 2015</p>
     </div>
 </footer>
+-->
 
 
 <!-- Bootstrap core JavaScript
