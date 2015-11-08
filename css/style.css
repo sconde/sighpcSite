@@ -3,13 +3,16 @@ body {
 }
 
 .em-text {
-    color: #1caa98 !important;
+    color: #2E9AFE !important;
+}
+
+.container p {
 }
 
 .jumbotron {
     background: url(../img/site_showcase_bg.jpg) no-repeat top center;
     color:#fff;
-    height:600px;
+    height:500px;
     overflow: none;
 }
 
@@ -49,4 +52,19 @@ footer {
     position : relative;
     margin-top : -10px;
     margin-left : 5px;
+}
+
+.mission ul {
+    font-size : 20px;
+    display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
+
+.mission ul li {
+    font-size: 20px;
 }
