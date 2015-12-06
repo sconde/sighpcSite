@@ -18,6 +18,11 @@ body {
 
 .jumbotron h1{
     margin-top:10px;
+    color: #000000;
+}
+
+.jumbotron small{
+    color: #1aa3ff;
 }
 
 .jumbotron p {
