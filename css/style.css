@@ -74,3 +74,24 @@ footer {
 .mission ul li {
     font-size: 20px;
 }
+
+.carousel-page-header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.carousel-page-header h1 {
+    text-align: left;
+    font-size: 300%;
+}
+
+.carousel-page-header small{
+    text-align: left;
+    color: #66ccff;
+}
+
+.carousel-hero-unit p{
+    text-align: left;
+    text-size: 250%;
+}
