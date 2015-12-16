@@ -95,3 +95,8 @@ footer {
     text-align: left;
     text-size: 250%;
 }
+
+.item img{
+    width : 2048px;
+    height: 1028px;
+}
