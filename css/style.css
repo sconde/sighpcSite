@@ -97,8 +97,9 @@ footer {
 }
 
 .carousel-hero-unit p:first-of-type {
-    color: #ffffff;
-    background-color: #e5f2ff;
+    color: #000000;
+    background-color: #ffffff;
+    text-align: center;
 }
 
 .item img{
