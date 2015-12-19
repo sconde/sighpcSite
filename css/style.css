@@ -96,6 +96,11 @@ footer {
     text-size: 250%;
 }
 
+.carousel-hero-unit p:first-of-type {
+    color: #ffffff;
+    background-color: #e5f2ff;
+}
+
 .item img{
     width : 2048px;
     height: 1028px;
